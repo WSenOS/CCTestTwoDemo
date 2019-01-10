@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60B330E21E73F3600F5A8FB /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A60B330D21E73F3600F5A8FB /* Resources.bundle */; };
 		A648D32B21E7238600E9D062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A648D32A21E7238600E9D062 /* AppDelegate.m */; };
 		A648D32E21E7238600E9D062 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A648D32D21E7238600E9D062 /* ViewController.m */; };
 		A648D33121E7238600E9D062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A648D32F21E7238600E9D062 /* Main.storyboard */; };
@@ -16,12 +17,7 @@
 		A648D34321E7238700E9D062 /* CCTestTwoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A648D34221E7238700E9D062 /* CCTestTwoDemoTests.m */; };
 		A648D34E21E7238700E9D062 /* CCTestTwoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A648D34D21E7238700E9D062 /* CCTestTwoDemoUITests.m */; };
 		A648D35F21E723D000E9D062 /* CCListController.m in Sources */ = {isa = PBXBuildFile; fileRef = A648D35D21E723D000E9D062 /* CCListController.m */; };
-		A648D36021E723D000E9D062 /* CCListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A648D35E21E723D000E9D062 /* CCListController.xib */; };
 		A648D36421E723EA00E9D062 /* CCListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A648D36221E723EA00E9D062 /* CCListCell.m */; };
-		A648D36521E723EA00E9D062 /* CCListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A648D36321E723EA00E9D062 /* CCListCell.xib */; };
-		A648D36921E7241F00E9D062 /* 333.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A648D36621E7241E00E9D062 /* 333.jpg */; };
-		A648D36A21E7241F00E9D062 /* aaa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A648D36721E7241E00E9D062 /* aaa.jpg */; };
-		A648D36B21E7241F00E9D062 /* bbb.png in Resources */ = {isa = PBXBuildFile; fileRef = A648D36821E7241F00E9D062 /* bbb.png */; };
 		A648D36E21E7288E00E9D062 /* CCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A648D36D21E7288E00E9D062 /* CCModel.m */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A60B32F021E73D5600F5A8FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60B330D21E73F3600F5A8FB /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
 		A648D32621E7238600E9D062 /* CCTestTwoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCTestTwoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A648D32921E7238600E9D062 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A648D32A21E7238600E9D062 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,13 +59,8 @@
 		A648D34F21E7238700E9D062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A648D35C21E723D000E9D062 /* CCListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCListController.h; sourceTree = "<group>"; };
 		A648D35D21E723D000E9D062 /* CCListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCListController.m; sourceTree = "<group>"; };
-		A648D35E21E723D000E9D062 /* CCListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCListController.xib; sourceTree = "<group>"; };
 		A648D36121E723EA00E9D062 /* CCListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCListCell.h; sourceTree = "<group>"; };
 		A648D36221E723EA00E9D062 /* CCListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCListCell.m; sourceTree = "<group>"; };
-		A648D36321E723EA00E9D062 /* CCListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCListCell.xib; sourceTree = "<group>"; };
-		A648D36621E7241E00E9D062 /* 333.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 333.jpg; sourceTree = "<group>"; };
-		A648D36721E7241E00E9D062 /* aaa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aaa.jpg; sourceTree = "<group>"; };
-		A648D36821E7241F00E9D062 /* bbb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbb.png; sourceTree = "<group>"; };
 		A648D36C21E7288E00E9D062 /* CCModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCModel.h; sourceTree = "<group>"; };
 		A648D36D21E7288E00E9D062 /* CCModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,12 +90,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A60B32EF21E73D5600F5A8FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A60B32F021E73D5600F5A8FB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A648D31D21E7238600E9D062 = {
 			isa = PBXGroup;
 			children = (
 				A648D32821E7238600E9D062 /* CCTestTwoDemo */,
 				A648D34121E7238700E9D062 /* CCTestTwoDemoTests */,
 				A648D34C21E7238700E9D062 /* CCTestTwoDemoUITests */,
+				A60B32EF21E73D5600F5A8FB /* Resources */,
 				A648D32721E7238600E9D062 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,15 +157,11 @@
 		A648D35B21E723AE00E9D062 /* CCTestTwo */ = {
 			isa = PBXGroup;
 			children = (
-				A648D36621E7241E00E9D062 /* 333.jpg */,
-				A648D36721E7241E00E9D062 /* aaa.jpg */,
-				A648D36821E7241F00E9D062 /* bbb.png */,
+				A60B330D21E73F3600F5A8FB /* Resources.bundle */,
 				A648D35C21E723D000E9D062 /* CCListController.h */,
 				A648D35D21E723D000E9D062 /* CCListController.m */,
-				A648D35E21E723D000E9D062 /* CCListController.xib */,
 				A648D36121E723EA00E9D062 /* CCListCell.h */,
 				A648D36221E723EA00E9D062 /* CCListCell.m */,
-				A648D36321E723EA00E9D062 /* CCListCell.xib */,
 				A648D36C21E7288E00E9D062 /* CCModel.h */,
 				A648D36D21E7288E00E9D062 /* CCModel.m */,
 			);
@@ -273,14 +271,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A648D36B21E7241F00E9D062 /* bbb.png in Resources */,
 				A648D33621E7238700E9D062 /* LaunchScreen.storyboard in Resources */,
 				A648D33321E7238700E9D062 /* Assets.xcassets in Resources */,
+				A60B330E21E73F3600F5A8FB /* Resources.bundle in Resources */,
 				A648D33121E7238600E9D062 /* Main.storyboard in Resources */,
-				A648D36921E7241F00E9D062 /* 333.jpg in Resources */,
-				A648D36A21E7241F00E9D062 /* aaa.jpg in Resources */,
-				A648D36521E723EA00E9D062 /* CCListCell.xib in Resources */,
-				A648D36021E723D000E9D062 /* CCListController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -469,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -482,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LC9DJ8KTB2;
 				INFOPLIST_FILE = CCTestTwoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -498,6 +493,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LC9DJ8KTB2;
 				INFOPLIST_FILE = CCTestTwoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

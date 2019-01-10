@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 			first demo
                    DESC
 
-  s.homepage     = "http://xxx"
+  s.homepage     = "http://github.com"
 
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "http://xxx", :tag => "#{s.version}" }
+  s.source       = { :git => "git@github.com:WSenOS/CCTestTwoDemo.git", :tag => "#{s.version}" }
 
   s.source_files  = "CCTestTwo/*"
 
   # s.public_header_files = "Classes/**/*.h"
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resources = "Resources/*"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

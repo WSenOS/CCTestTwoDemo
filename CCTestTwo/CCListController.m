@@ -9,16 +9,42 @@
 #import "CCListController.h"
 #import "CCListCell.h"
 
+@implementation NSBundle (wgSubBundle)
+
++ (instancetype)wg_subBundleWithBundleName:(NSString *)bundleName targetClass:(Class)targetClass{
+    //并没有拿到子bundle
+    NSBundle *bundle = [NSBundle bundleForClass:targetClass];
+    //在这个路径下找到子bundle的路径
+    NSString *path = [bundle pathForResource:bundleName ofType:@"bundle"];
+    //根据路径拿到子bundle
+    return path?[NSBundle bundleWithPath:path]:[NSBundle mainBundle];
+}
+
+@end
+
 @interface CCListController () <UITableViewDelegate,UITableViewDataSource>
+{
+    NSBundle * bundle;
+}
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
 @implementation CCListController
 
+- (instancetype)init
+{
+    bundle = [NSBundle wg_subBundleWithBundleName:@"Resources" targetClass:[self class]];
+    self = [super initWithNibName:@"CCListController" bundle:bundle];
+    if (self) {
+        
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [_tableView registerNib:[UINib nibWithNibName:@"CCListCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"CCListCell"];
+    [_tableView registerNib:[UINib nibWithNibName:@"CCListCell" bundle:bundle] forCellReuseIdentifier:@"CCListCell"];
 }
 
 - (void)setDataArray:(NSArray *)dataArray {
@@ -43,7 +69,7 @@
         cell.iconImageView.image = [UIImage imageNamed:@"aaa.jpg"];
     }
     if (indexPath.row == 4) {
-        cell.iconImageView.image = [UIImage imageNamed:@"bbb"];
+        cell.iconImageView.image = [UIImage imageWithContentsOfFile:[bundle pathForResource:@"bbb" ofType:@"png"]];
     }
 
     return cell;
