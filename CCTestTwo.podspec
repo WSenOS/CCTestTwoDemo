@@ -23,12 +23,12 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "git@github.com:WSenOS/CCTestTwoDemo.git", :tag => "#{s.version}" }
 
-  s.source_files  = "CCTestTwo/*"
+  s.source_files  = "CCTestTwo/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
   # s.resource  = "icon.png"
-  s.resources = "Resources/*"
+  s.resources = "CCTestTwo/Resources.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
